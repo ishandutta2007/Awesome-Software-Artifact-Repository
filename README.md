@@ -1,7 +1,7 @@
 ![Awesome Software Artifact Repository Ecosystem](assets/banner.svg)
 
 <p center>
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=gold" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/commits/master"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=blue" alt="Last Commit"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=gold" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/commits/master"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=blue" alt="Last Commit"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 # 📦 Awesome Software Artifact Repository Ecosystem 🚀
@@ -23,6 +23,8 @@ Welcome to the ultimate reference guide for **software artifact repository manag
 - [🛡️ Artifact Storage & Object Backends](#%EF%B8%8F-artifact-storage--object-backends)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚠️ Security & Governance Disclaimer](#%EF%B8%8F-security--governance-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
 ---
 
@@ -138,6 +140,25 @@ Contributions are warmly welcome! Help keep this repository accurate, comprehens
 > - **Dependency Confusion & Typosquatting:** Public registries (`npm`, `PyPI`, `NuGet`) are prone to malicious package uploads. Always configure internal repositories to prioritize private feeds.
 > - **Artifact Signing & Provenance:** Utilize cryptographic signing tools such as [Cosign / Sigstore](https://github.com/sigstore/cosign) and SBOM generators to verify binary authenticity.
 > - **Self-Hosted Responsibility:** When deploying open-source options (*Nexus, Harbor, Verdaccio*), you are responsible for backup redundancy, storage elasticity, TLS encryption, and timely security patching.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for using and contributing to the **Awesome Software Artifact Repository Ecosystem**! If you find this repository helpful for your software architecture, DevOps infrastructure, or package registry research, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🔀 **Fork** and contribute new tools or updates.
+- 📢 **Share** it with your network, platform engineers, and DevOps teams.
+- ☕ **Sponsor / Buy me a coffee**: If you'd like to support ongoing open-source maintenance and curation, you can sponsor via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor"/></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Software-Artifact-Repository&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Software-Artifact-Repository&type=date&legend=top-left)
 
 ---
 

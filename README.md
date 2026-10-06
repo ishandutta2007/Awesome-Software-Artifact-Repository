@@ -1,291 +1,146 @@
-# Awesome-Software-Artifact-Repository
+![Awesome Software Artifact Repository Ecosystem](assets/banner.svg)
 
-## Top Software Artifact Repository Ecosystem
+<p center>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=gold" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/commits/master"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=blue" alt="Last Commit"/></a>
+</p>
 
+# 📦 Awesome Software Artifact Repository Ecosystem 🚀
 
+> **A curated, comprehensive directory of SaaS commercial platforms, cloud-native artifact registries, self-hosted package repositories, and open-source binary management tools.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Package Registries, Artifact Management & Self-Hosted Repositories*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial artifact repository platforms** and **open-source projects** that store, version, and distribute software packages and build artifacts. These tools manage dependencies across languages and formats — from npm and PyPI to Docker images and Maven artifacts.
-
-
-
-**Examples** include AWS CodeArtifact, JFrog Artifactory, Sonatype Nexus, Cloudsmith, GitHub Packages, Azure Artifacts, Google Artifact Registry, ProGet, GitLab Package Registry, and Packagecloud (the category leaders).
-
-
-
-**Open-source emphasis**: Artifact repository management is a strong open-source domain. **Nexus Repository OSS** and **Artifactory OSS** lead as the veteran self-hosted options. **Artipie** brings a modern universal registry, while **Verdaccio**, **Devpi**, **BaGet**, and **Pulp** provide language-specific solutions. **Apache Archiva** handles Java artifacts, and **S3-backed repositories** enable serverless artifact hosting. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[JFrog Artifactory](https://jfrog.com/artifactory/)**  
-
-  **The enterprise standard for artifact management** — universal repository supporting 30+ package types including Maven, npm, PyPI, Docker, NuGet, and Go . **Best for large enterprises** needing comprehensive artifact management with security scanning.
-
-
-
-- **[Sonatype Nexus Repository](https://www.sonatype.com/products/nexus-repository)**  
-
-  **The most widely deployed artifact repository** — supports Maven, npm, NuGet, PyPI, Docker, and more. **The reference for Java/JVM artifact management** .
-
-
-
-- **[AWS CodeArtifact](https://aws.amazon.com/codeartifact/)**  
-
-  **AWS's managed artifact repository** — supports npm, PyPI, Maven, NuGet, and Swift . **Best for AWS-native teams** .
-
-
-
-- **[GitHub Packages](https://github.com/features/packages)**  
-
-  **Package hosting integrated with GitHub** — npm, Docker, Maven, NuGet, RubyGems . **Free tier available** . **Best for GitHub-centric teams** .
-
-
-
-- **[Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts/)**  
-
-  **Microsoft's artifact repository** — npm, NuGet, Maven, PyPI, and Universal Packages . **Best for Azure DevOps users** .
-
-
-
-- **[Google Artifact Registry](https://cloud.google.com/artifact-registry)**  
-
-  **Google's universal artifact repository** — Docker, Maven, npm, Python, Go, and apt/yum . **Best for Google Cloud users** .
-
-
-
-- **[Cloudsmith](https://cloudsmith.com/)**  
-
-  **Cloud-native artifact management** — 25+ package formats with global CDN . **Free tier available** . **Best for multi-format artifact hosting** .
-
-
-
-- **[ProGet](https://inedo.com/proget)**  
-
-  **Universal package manager for Windows** — NuGet, npm, PyPI, Maven, Docker, and more . **Best for Windows-centric .NET teams** .
-
-
-
-- **[GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/)**  
-
-  **Package hosting integrated with GitLab** — npm, Maven, NuGet, PyPI, Composer, and more . **Best for GitLab users** .
-
-
-
-- **[Packagecloud](https://packagecloud.io/)**  
-
-  **Hosted package repository** — apt, yum, RubyGems, npm, and Python . **Best for Linux distribution packages** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Universal Artifact Repositories
-
-
-
-- **[Nexus Repository OSS](https://github.com/sonatype/nexus-public)**  
-
-  **The most widely deployed open-source artifact repository**, EPL-1.0 licensed . **Supports Maven, npm, NuGet, PyPI, Docker, RubyGems, Go, and more** . **The enterprise standard** — mature, feature-rich, and widely documented . **Best for enterprises needing a proven artifact repository** .
-
-
-
-- **[JFrog Artifactory OSS](https://github.com/jfrog/artifactory-oss)**  
-
-  **Open-source version of JFrog Artifactory** (limited to OSS languages), Apache-2.0 licensed . **Supports Maven, Gradle, npm, PyPI, NuGet, Docker, and more** . **Best for teams wanting a lighter Artifactory experience** .
-
-
-
-- **[Artipie](https://github.com/artipie/artipie)**  
-
-  **Open-source, self-hosted universal artifact registry**, MIT licensed . **Supports Maven, npm, PyPI, Docker, NuGet, RubyGems, Go, Helm, Debian, RPM, and more** — one binary for all package types . **The most comprehensive modern open-source artifact registry** — lightweight, fast, and container-friendly . **Best for organizations wanting a single self-hosted registry for all languages** .
-
-
-
-- **[Pulp](https://github.com/pulp/pulp)**  
-
-  **Open-source repository management platform**, GPL-2.0 licensed . **Supports RPM, Debian, Python, Ansible, and container content** . **The standard for Linux distribution package management** . **Best for Linux distribution maintainers** .
-
-
-
-- **[Apache Archiva](https://github.com/apache/archiva)**  
-
-  **Open-source repository management for Java artifacts**, Apache-2.0 licensed . **Maven, Gradle, and Ivy support** . **Best for Java-centric organizations** .
-
-
-
-- **[Reposilite](https://github.com/dzikoysk/reposilite)**  
-
-  **Lightweight and easy-to-use Maven repository**, Apache-2.0 licensed . **Self-hosted with minimal configuration** . **Best for simple Maven artifact hosting** .
-
-
-
-- **[Strongbox](https://github.com/strongbox/strongbox)**  
-
-  **Open-source artifact repository manager**, Apache-2.0 licensed . **Maven, npm, NuGet, PyPI, and Docker support** . **Best for Java-centric artifact management** .
-
-
-
-### Language-Specific Repositories
-
-
-
-- **[Verdaccio](https://github.com/verdaccio/verdaccio)**  
-
-  **Lightweight private npm registry**, MIT licensed with **16,000+ GitHub stars** . **Self-hosted npm proxy and private registry** — cache public packages and host private ones . **The best open-source npm registry** — zero-config, Docker-friendly . **Best for Node.js teams wanting private npm** .
-
-
-
-- **[Devpi](https://github.com/devpi/devpi)**  
-
-  **Python package server and private PyPI**, MIT licensed . **Self-hosted PyPI proxy and private index** . **The standard for private Python packages** . **Best for Python teams wanting private PyPI** .
-
-
-
-- **[BaGet](https://github.com/loic-sharma/BaGet)**  
-
-  **Lightweight NuGet server**, MIT licensed with **1,500+ GitHub stars** . **Self-hosted NuGet registry** — simple, fast, and .NET-native . **The best open-source NuGet server** . **Best for .NET teams wanting private NuGet** .
-
-
-
-- **[Sleet](https://github.com/emgarten/Sleet)**  
-
-  **Static NuGet package feed generator**, MIT licensed . **Creates static NuGet feeds from packages** — no server required, host on S3/Azure . **Best for serverless NuGet hosting** .
-
-
-
-- **[ProGet (Free Edition)](https://github.com/inedo/proget)**  
-
-  **Universal package manager for Windows** (open-core), Apache-2.0 licensed . **Supports NuGet, npm, PyPI, Maven, Docker, and more** . **Best for Windows-centric .NET teams** .
-
-
-
-- **[Docker Registry](https://github.com/distribution/distribution)**  
-
-  **The reference implementation of the Docker Registry**, Apache-2.0 licensed . **Self-hosted Docker image registry** . **Best for container image hosting** .
-
-
-
-- **[Harbor](https://github.com/goharbor/harbor)**  
-
-  **Cloud-native container registry with security and governance**, Apache-2.0 licensed with **25,000+ GitHub stars** . **Vulnerability scanning, RBAC, and replication** . **Best for enterprise container registries** .
-
-
-
-- **[Quay](https://github.com/quay/quay)**  
-
-  **Red Hat's container registry**, Apache-2.0 licensed . **Security scanning and geo-replication** . **Best for enterprise container registries** .
-
-
-
-### Cloud-Native & S3-Backed
-
-
-
-- **[S3-backed Repositories (AWS)**](https://aws.amazon.com/)  
-
-  **Serverless artifact hosting on S3** — no server required, pay only for storage . **Best for cost-effective artifact hosting** .
-
-
-
-- **[GitHub Packages (Self-Hosted Alternatives)**](https://github.com/)  
-
-  **Self-hosted alternatives to GitHub Packages** — including Gitea, Forgejo package registries . **Best for self-hosted Git with package hosting** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Ceph** — Distributed storage for artifact repositories at scale .
-
-- **MinIO** — S3-compatible object storage for artifact backends .
-
-- **SeaweedFS** — Distributed file system for artifact storage .
-
-- **IPFS** — Decentralized artifact storage (experimental) .
-
-- **ORAS** — OCI Registry as Storage for arbitrary artifacts .
-
-- **zot** — OCI-native container registry .
-
-- **Distribution** — Docker Registry reference implementation .
-
-
-
-**Frameworks for building custom artifact repository solutions**: Combine **Nexus Repository OSS** for proven enterprise artifact management . Use **Artipie** for a modern universal registry supporting all major package types . Deploy **Verdaccio** for private npm, **Devpi** for private PyPI, or **BaGet** for private NuGet . Choose **Harbor** for enterprise container registries . Use **Pulp** for Linux distribution packages . Integrate **S3** or **MinIO** for serverless artifact storage . Note that true enterprise artifact management with high availability, security scanning, and vendor-supported SLAs (JFrog Artifactory Pro, Cloudsmith, Nexus Pro) remains primarily commercial territory; open-source stacks provide strong self-hosted registry, proxy, and caching foundations that require infrastructure responsibility.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Artifact repositories store and distribute software packages that may contain malicious code. **Supply chain attacks are a real threat** — verify package sources, use signed artifacts, and scan dependencies for vulnerabilities .
-
-- **Public registries are not curated for security** — npm, PyPI, and NuGet have all experienced malicious package incidents. Use private registries with security scanning for production .
-
-- **Self-hosted repositories require infrastructure** — storage, backup, high availability, and security are your responsibility. Nexus and Artifactory OSS are mature but require operational expertise .
-
-- **License considerations**: Nexus Repository OSS uses EPL-1.0, Artifactory OSS uses Apache-2.0 with feature limitations, and Pulp uses GPL-2.0. Verify licensing against your use case .
-
-- The open-source ecosystem provides strong self-hosted registry, proxy, and caching foundations, but **high availability, security scanning, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+Welcome to the ultimate reference guide for **software artifact repository management**, **package registries**, and **private binary storage infrastructure**. Whether you are building cloud-native microservices, managing enterprise software supply chains, hosting private `npm`/`PyPI`/`NuGet`/`Maven`/`Docker` packages, or setting up zero-trust artifact governance, this list covers the top commercial and open-source solutions available today.
 
 ---
 
+## 📋 Table of Contents
 
+- [📊 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+  - [📈 Market Size & Industry Structure](#-market-size--industry-structure)
+  - [🏢 SaaS Products Comparison Matrix](#-saas-products-comparison-matrix)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Top Open-Source Artifact Repositories (Sorted by Stars)](#-top-open-source-artifact-repositories-sorted-by-stars)
+  - [🧩 Open-Source Ecosystem Categories](#-open-source-ecosystem-categories)
+- [🛡️ Artifact Storage & Object Backends](#%EF%B8%8F-artifact-storage--object-backends)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Security & Governance Disclaimer](#%EF%B8%8F-security--governance-disclaimer)
 
-**Made for DevOps engineers, platform teams, and organizations seeking artifact repository sovereignty.**  
+---
 
-Let's make software artifact repositories more open, transparent, and secure.
+## 📊 SaaS & Hosted Platforms
+
+### 📈 Market Size & Industry Structure
+
+> 💡 **Sector Economic Summary (2026):** The global software artifact repository and package management market is estimated at **\$3.5 Billion** and projected to grow to **\$6.8 Billion by 2030** (CAGR ~14.5%). The market is **moderately fragmented**: cloud hyper-scalers (*Microsoft Azure/GitHub, Google Cloud, AWS*) dominate integrated cloud-native CI/CD workloads; specialized enterprise leaders (*JFrog Artifactory, Sonatype Nexus*) hold dominant market share for complex multi-format governance and enterprise supply chain compliance; while focused vendors (*Cloudsmith, Inedo, Packagecloud*) serve dedicated developer and platform engineering niches.
+
+---
+
+### 🏢 SaaS Products Comparison Matrix
+
+*Products are sorted by **Company Size / Valuation** in descending order.*
+
+| 🏢 Product & Platform | 💰 Company Size / Valuation | 🏷️ Starting Paid Pricing | 🎁 Free Tier / Trial Limits | ⚡ Primary Formats & Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts/)** | **~$3.2 Trillion** *(Microsoft)* | **$2.00 / GB / month** (billed beyond free quota) | **2 GB storage free forever** for all Azure DevOps users (5 free users included) | `npm`, `NuGet`, `Maven`, `PyPI`, `Universal Packages`. Best for Azure DevOps CI/CD pipelines. |
+| **[GitHub Packages](https://github.com/features/packages)** | **~$3.2 Trillion** *(Microsoft)* | **$0.25 / GB / month** storage & $0.50 / GB transfer; Team plan at **$4.00 / user / month** | **500 MB storage & 1 GB transfer / month free forever** for GitHub Free accounts | `npm`, `Docker/OCI`, `Maven`, `NuGet`, `RubyGems`, `Containers`. Best for GitHub-centric development teams. |
+| **[Google Artifact Registry](https://cloud.google.com/artifact-registry)** | **~$2.2 Trillion** *(Alphabet)* | **$0.10 / GB / month** storage; network egress **$0.08–$0.12 / GB** | **0.5 GB (500 MB) storage / month free forever** under Google Cloud Free Tier | `Docker/OCI`, `Maven`, `npm`, `PyPI`, `Go`, `Apt`, `Yum`, `Helm`. Best for GCP infrastructure & Kubernetes workloads. |
+| **[AWS CodeArtifact](https://aws.amazon.com/codeartifact/)** | **~$1.9 Trillion** *(Amazon)* | **$0.05 / GB / month** storage; **$0.05 per 10,000 requests** | **2 GB storage & 100,000 requests / month free forever** under AWS Free Tier | `npm`, `PyPI`, `Maven`, `NuGet`, `Swift`, `Cargo`. Best for AWS-native cloud applications. |
+| **[GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/)** | **~$8.0 Billion** *(GitLab Inc.)* | Premium at **$29.00 / user / month**; Ultimate at **$99.00 / user / month** | **5 GB storage & 10 GB data transfer / month free forever** per group on GitLab Free | `npm`, `Maven`, `NuGet`, `PyPI`, `Composer`, `Conan`, `Helm`, `Terraform`. Best for end-to-end GitLab DevOps pipelines. |
+| **[JFrog Artifactory](https://jfrog.com/artifactory/)** | **~$3.5 Billion** *(JFrog Ltd.)* | Cloud Pro starting at **$98.00 / month** (or **$0.005 / GB / hour**) | **500 MB storage & 2 GB transfer / month free forever** (JFrog Cloud Free Tier) | **30+ package formats** (`Maven`, `npm`, `PyPI`, `Docker`, `NuGet`, `Go`, `Helm`, `Cargo`). Best for enterprise supply chain governance. |
+| **[Sonatype Nexus Repository Pro](https://www.sonatype.com/products/nexus-repository)** | **~$1.5 Billion** *(Sonatype)* | Nexus Pro starting at **$120.00 / user / year** (*~$10.00 / user / month*, min $1,200/yr) | **14-day free trial** of Nexus Repository Pro (unlimited features & storage during trial) | `Maven`, `npm`, `NuGet`, `PyPI`, `Docker`, `RubyGems`, `Helm`, `Apt`, `Yum`. Reference standard for JVM & enterprise artifact architecture. |
+| **[Cloudsmith](https://cloudsmith.com/)** | **~$120 Million** *(Cloudsmith)* | Developer / Team starting at **$18.00 / user / month** (or **$49.00 / month** team base) | **14-day free trial** with **50 GB storage & 50 GB bandwidth**; Free forever for verified Open Source | **28+ formats** with multi-region global CDN edge distribution. Best for cloud-native software delivery & SaaS ISVs. |
+| **[ProGet](https://inedo.com/proget)** | **~$20 Million** *(Inedo)* | Basic Paid Edition starting at **$1,200.00 / year** (*~$100.00 / month*); Enterprise $3,000/yr | **Free Forever Basic Edition** (up to 5 users, 1 feed per format type, unlimited storage) | `NuGet`, `npm`, `PyPI`, `Maven`, `Docker`, `Helm`, `Asset Feeds`. Best for Windows-centric .NET & enterprise IT stacks. |
+| **[Packagecloud](https://packagecloud.io/)** | **~$10 Million** *(Computable Labs)* | Developer Plan starting at **$49.00 / month** | **14-day free trial** (includes **10 GB storage & 50 GB transfer**); Free tier for non-profits | `Apt`, `Yum`, `RubyGems`, `npm`, `Python`. Best for Linux distribution package hosting & deb/rpm repositories. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source artifact repositories provide full self-hosted control, private package caching, air-gapped security, and zero licensing cost for internal infrastructure.
+
+### ⭐ Top Open-Source Artifact Repositories (Sorted by Stars)
+
+| 🏆 Project & Repository | ⭐ GitHub Stars | 📜 License | 🎯 Description & Primary Focus |
+| :--- | :--- | :--- | :--- |
+| **[CNCF Harbor](https://github.com/goharbor/harbor)** | [<img src="https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white" alt="Harbor Stars"/>](https://github.com/goharbor/harbor/stargazers) | `Apache-2.0` | **Enterprise Cloud-Native Registry** — CNCF graduated project supporting Docker/OCI images and Helm charts with Trivy vulnerability scanning, RBAC, and policy replication. |
+| **[Verdaccio](https://github.com/verdaccio/verdaccio)** | [<img src="https://img.shields.io/github/stars/verdaccio/verdaccio?style=social&color=white" alt="Verdaccio Stars"/>](https://github.com/verdaccio/verdaccio/stargazers) | `MIT` | **Lightweight Private npm Proxy Registry** — Zero-config Node.js private registry and caching proxy for public npm packages. |
+| **[OCI Distribution](https://github.com/distribution/distribution)** | [<img src="https://img.shields.io/github/stars/distribution/distribution?style=social&color=white" alt="Distribution Stars"/>](https://github.com/distribution/distribution/stargazers) | `Apache-2.0` | **Reference Docker & OCI Registry** — The foundational engine behind Docker Registry and OCI artifact storage specification. |
+| **[ChartMuseum](https://github.com/helm/chartmuseum)** | [<img src="https://img.shields.io/github/stars/helm/chartmuseum?style=social&color=white" alt="ChartMuseum Stars"/>](https://github.com/helm/chartmuseum/stargazers) | `Apache-2.0` | **Helm Chart Repository Server** — Open-source Helm chart server with multi-tenant storage backends (S3, GCS, Azure Blob, local). |
+| **[Dragonfly2](https://github.com/dragonflyoss/dragonfly)** | [<img src="https://img.shields.io/github/stars/dragonflyoss/dragonfly?style=social&color=white" alt="Dragonfly Stars"/>](https://github.com/dragonflyoss/dragonfly/stargazers) | `Apache-2.0` | **P2P Artifact Distribution & Acceleration** — CNCF incubating project providing peer-to-peer image and binary file distribution for large Kubernetes clusters. |
+| **[Zot Registry](https://github.com/project-zot/zot)** | [<img src="https://img.shields.io/github/stars/project-zot/zot?style=social&color=white" alt="Zot Stars"/>](https://github.com/project-zot/zot/stargazers) | `Apache-2.0` | **OCI-Native Container Registry** — Production-ready, scale-out, vendor-neutral container image and OCI artifact registry. |
+| **[Red Hat Quay](https://github.com/quay/quay)** | [<img src="https://img.shields.io/github/stars/quay/quay?style=social&color=white" alt="Quay Stars"/>](https://github.com/quay/quay/stargazers) | `Apache-2.0` | **Enterprise Container & Image Registry** — Red Hat's open-source container registry with geo-replication, Clair vulnerability scanning, and build automation. |
+| **[BaGet](https://github.com/loic-sharma/BaGet)** | [<img src="https://img.shields.io/github/stars/loic-sharma/BaGet?style=social&color=white" alt="BaGet Stars"/>](https://github.com/loic-sharma/BaGet/stargazers) | `MIT` | **Lightweight NuGet Server** — Open-source, cross-platform .NET Core server for hosting private NuGet packages and symbol feeds. |
+| **[Nexus Repository OSS](https://github.com/sonatype/nexus-public)** | [<img src="https://img.shields.io/github/stars/sonatype/nexus-public?style=social&color=white" alt="Nexus OSS Stars"/>](https://github.com/sonatype/nexus-public/stargazers) | `EPL-1.0` | **Universal Artifact Repository** — The world's most deployed open-source binary repository supporting Maven, npm, NuGet, PyPI, Docker, and Go. |
+| **[ORAS](https://github.com/oras-project/oras)** | [<img src="https://img.shields.io/github/stars/oras-project/oras?style=social&color=white" alt="ORAS Stars"/>](https://github.com/oras-project/oras/stargazers) | `Apache-2.0` | **OCI Registry as Storage** — CNCF project enabling OCI registries to store arbitrary artifacts, Helm charts, WebAssembly modules, and SBOMs. |
+| **[Reposilite](https://github.com/dzikoysk/reposilite)** | [<img src="https://img.shields.io/github/stars/dzikoysk/reposilite?style=social&color=white" alt="Reposilite Stars"/>](https://github.com/dzikoysk/reposilite/stargazers) | `Apache-2.0` | **Lightweight JVM / Maven Repository** — Modern, lightweight Java/Kotlin repository manager designed for quick self-hosting with low memory overhead. |
+| **[Devpi](https://github.com/devpi/devpi)** | [<img src="https://img.shields.io/github/stars/devpi/devpi?style=social&color=white" alt="Devpi Stars"/>](https://github.com/devpi/devpi/stargazers) | `MIT` | **Python PyPI Staging & Proxy Server** — Self-hosted private PyPI index, caching proxy, and release management tool for Python projects. |
+| **[Artipie](https://github.com/artipie/artipie)** | [<img src="https://img.shields.io/github/stars/artipie/artipie?style=social&color=white" alt="Artipie Stars"/>](https://github.com/artipie/artipie/stargazers) | `MIT` | **Modern Universal Binary Repository** — Modular Java-based artifact manager supporting Maven, npm, PyPI, Docker, Helm, NuGet, Debian, and RPM in a single binary. |
+| **[Strongbox](https://github.com/strongbox/strongbox)** | [<img src="https://img.shields.io/github/stars/strongbox/strongbox?style=social&color=white" alt="Strongbox Stars"/>](https://github.com/strongbox/strongbox/stargazers) | `Apache-2.0` | **Java-Native Artifact Repository** — Open-source artifact manager supporting Maven, npm, NuGet, PyPI, and Docker with strong security controls. |
+| **[Pulp Core](https://github.com/pulp/pulpcore)** | [<img src="https://img.shields.io/github/stars/pulp/pulpcore?style=social&color=white" alt="Pulp Stars"/>](https://github.com/pulp/pulpcore/stargazers) | `GPL-2.0` | **Linux & Software Package Management Platform** — Python-based platform for fetching, mirror hosting, and distributing RPM, Debian, Python, and container content. |
+| **[Sleet](https://github.com/emgarten/Sleet)** | [<img src="https://img.shields.io/github/stars/emgarten/Sleet?style=social&color=white" alt="Sleet Stars"/>](https://github.com/emgarten/Sleet/stargazers) | `MIT` | **Static Serverless NuGet Generator** — CLI tool to generate static NuGet v3 package feeds hosted directly on AWS S3, Azure Blob, or static web servers. |
+| **[Apache Archiva](https://github.com/apache/archiva)** | [<img src="https://img.shields.io/github/stars/apache/archiva?style=social&color=white" alt="Archiva Stars"/>](https://github.com/apache/archiva/stargazers) | `Apache-2.0` | **Extensible Maven Repository Manager** — Apache Software Foundation project managing Java Maven repositories, security roles, and repository proxying. |
+
+---
+
+### 🧩 Open-Source Ecosystem Categories
+
+#### 1. 🚀 Universal Multi-Format Registries
+- **[Sonatype Nexus OSS](https://github.com/sonatype/nexus-public)**: Mature, enterprise-grade multi-format binary repository.
+- **[Artipie](https://github.com/artipie/artipie)**: Lightweight, reactive universal binary store for containerized environments.
+- **[Strongbox](https://github.com/strongbox/strongbox)**: Security-focused Java application server for multi-ecosystem artifacts.
+
+#### 2. 🐳 Container & OCI Image Registries
+- **[Harbor](https://github.com/goharbor/harbor)**: CNCF Graduated container registry with CVE scanning & policy governance.
+- **[OCI Distribution](https://github.com/distribution/distribution)**: Canonical OCI artifact storage reference server.
+- **[Zot](https://github.com/project-zot/zot)**: OCI-native lightweight container registry designed for edge and Kubernetes.
+- **[Quay](https://github.com/quay/quay)**: Red Hat enterprise container distribution system.
+- **[ORAS](https://github.com/oras-project/oras)**: Standard CLI and client library for storing non-container artifacts in OCI registries.
+
+#### 3. 🐍 Language-Specific Package Servers
+- **JavaScript / Node.js**: **[Verdaccio](https://github.com/verdaccio/verdaccio)** — Zero-config private npm registry & proxy.
+- **Python**: **[Devpi](https://github.com/devpi/devpi)** — Private PyPI server and caching proxy index.
+- **.NET / C#**: **[BaGet](https://github.com/loic-sharma/BaGet)** (.NET Core server) & **[Sleet](https://github.com/emgarten/Sleet)** (Static S3 serverless feed generator).
+- **Java / JVM**: **[Reposilite](https://github.com/dzikoysk/reposilite)** (Modern Kotlin Maven server) & **[Apache Archiva](https://github.com/apache/archiva)**.
+- **Helm / Kubernetes**: **[ChartMuseum](https://github.com/helm/chartmuseum)** — Dedicated Helm chart repository.
+- **Linux Distros (RPM / Debian)**: **[Pulp Core](https://github.com/pulp/pulpcore)** — Complete repository synchronization & distribution framework.
+
+---
+
+## 🛡️ Artifact Storage & Object Backends
+
+Modern artifact repository architectures separate the **registry service layer** from the **object storage backend**. Recommended self-hosted object stores for artifact repos include:
+
+- 🗄️ **[MinIO](https://github.com/minio/minio)**: High-performance, S3-compatible enterprise object storage.
+- 🌊 **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)**: Fast distributed blob and file store for billions of small artifact packages.
+- 🔴 **[Ceph](https://github.com/ceph/ceph)**: Scale-out unified storage system for block, object, and file storage.
+- ⚡ **[Dragonfly2](https://github.com/dragonflyoss/dragonfly)**: P2P caching proxy layer for accelerating image pulls across thousands of Kubernetes nodes.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help keep this repository accurate, comprehensive, and up-to-date.
+
+1. **Fork** this repository.
+2. Add your product or open-source tool to `README.md` following the established table structure.
+3. Ensure you include:
+   - Official name & link.
+   - Company valuation / market cap or GitHub star count.
+   - Exact starting price & specific free tier limits.
+   - Primary formats supported and key use case.
+4. Submit a **Pull Request** with a clear explanation of your addition.
+
+---
+
+## ⚠️ Security & Governance Disclaimer
+
+> 🔒 **Software Supply Chain Security Notice:**
+> Software artifact repositories store code binaries, third-party dependencies, and container images that execute inside production environments.
+> - **Dependency Confusion & Typosquatting:** Public registries (`npm`, `PyPI`, `NuGet`) are prone to malicious package uploads. Always configure internal repositories to prioritize private feeds.
+> - **Artifact Signing & Provenance:** Utilize cryptographic signing tools such as [Cosign / Sigstore](https://github.com/sigstore/cosign) and SBOM generators to verify binary authenticity.
+> - **Self-Hosted Responsibility:** When deploying open-source options (*Nexus, Harbor, Verdaccio*), you are responsible for backup redundancy, storage elasticity, TLS encryption, and timely security patching.
+
+---
+
+<p align="center">
+  <b>Maintained with ❤️ for DevOps Engineers, Platform Teams & Software Architects</b>
+</p>

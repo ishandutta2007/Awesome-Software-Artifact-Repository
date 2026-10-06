@@ -1,7 +1,7 @@
 ![Awesome Software Artifact Repository Ecosystem](assets/banner.svg)
 
 <p center>
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=gold" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/commits/master"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=blue" alt="Last Commit"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=gold" alt="GitHub_Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Repository-Git/commits/master"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Source-Code-Repository-Git?style=flat-square&color=blue" alt="Last Commit"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 # 📦 Awesome Software Artifact Repository Ecosystem 🚀
@@ -61,7 +61,7 @@ Open-source artifact repositories provide full self-hosted control, private pack
 
 ### ⭐ Top Open-Source Artifact Repositories (Sorted by Stars)
 
-| 🏆 Project & Repository | ⭐ GitHub Stars | 📜 License | 🎯 Description & Primary Focus |
+| 🏆 Project & Repository | ⭐ GitHub_Stars | 📜 License | 🎯 Description & Primary Focus |
 | :--- | :--- | :--- | :--- |
 | **[CNCF Harbor](https://github.com/goharbor/harbor)** | [<img src="https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white" alt="Harbor Stars"/>](https://github.com/goharbor/harbor/stargazers) | `Apache-2.0` | **Enterprise Cloud-Native Registry** — CNCF graduated project supporting Docker/OCI images and Helm charts with Trivy vulnerability scanning, RBAC, and policy replication. |
 | **[Verdaccio](https://github.com/verdaccio/verdaccio)** | [<img src="https://img.shields.io/github/stars/verdaccio/verdaccio?style=social&color=white" alt="Verdaccio Stars"/>](https://github.com/verdaccio/verdaccio/stargazers) | `MIT` | **Lightweight Private npm Proxy Registry** — Zero-config Node.js private registry and caching proxy for public npm packages. |
@@ -126,7 +126,7 @@ Contributions are warmly welcome! Help keep this repository accurate, comprehens
 2. Add your product or open-source tool to `README.md` following the established table structure.
 3. Ensure you include:
    - Official name & link.
-   - Company valuation / market cap or GitHub star count.
+   - Company valuation / market cap or GitHub Stars_Count.
    - Exact starting price & specific free tier limits.
    - Primary formats supported and key use case.
 4. Submit a **Pull Request** with a clear explanation of your addition.
